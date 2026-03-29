@@ -1,0 +1,39 @@
+namespace org.accordproject.nda@1.0.0
+
+import org.accordproject.contract.* from https://models.accordproject.org/accordproject/contract.cto
+import org.accordproject.party.* from https://models.accordproject.org/accordproject/party.cto
+
+enum Status {
+  DRAFT
+  ACTIVE
+  INACTIVE
+}
+
+type Company extends Party {
+  o String name
+}
+
+type NDA extends Contract {
+  o Company companyA
+  o Company companyB
+  o String confidentialInformation
+  o Integer term
+  o DateTime effectiveDate
+  o DateTime terminationDate
+  o Status status
+}
+
+@description('The name of the disclosing company.')
+NDA.prototype.companyA
+@description('The name of the receiving company.')
+NDA.prototype.companyB
+@description('A description of the confidential information being shared.')
+NDA.prototype.confidentialInformation
+@description('The duration of the confidentiality obligation, specified as 2 years.')
+NDA.prototype.term
+@description('The date when the agreement becomes effective.')
+NDA.prototype.effectiveDate
+@description('The date when the agreement terminates, calculated based on the effective date and term.')
+NDA.prototype.terminationDate
+@description('The current status of the agreement.')
+NDA.prototype.status

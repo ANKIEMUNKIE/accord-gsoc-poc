@@ -1,0 +1,1 @@
+{"name": "@accordproject/nda", "version": "1.0.0", "description": "A Non-Disclosure Agreement (NDA) between two companies.", "keywords": ["accord-project", "template", "non-disclosure agreement"], "author": "GSoC 2025 Agentic Workflow", "license": "Apache-2.0", "accordproject": {"templateType": "contract", "language": "en", "runtime": "node"}}
