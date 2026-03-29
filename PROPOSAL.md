@@ -1,31 +1,33 @@
 # GSoC 2025 Proposal
 ## Agentic Workflow for Drafting Accord Project Templates
 
-**Organization:** Accord Project  
-**Project:** Project 1 — Agentic Workflow for Drafting Templates  
-**Mentors:** Sanket Shevkar, Niall Roche  
-**Project Size:** 90 hours / 8 weeks  
-**Category:** Risky/Exploratory  
+**Organization:** Accord Project
+**Project:** Project 1 — Agentic Workflow for Drafting Templates
+**Mentors:** Sanket Shevkar, Niall Roche
+**Project Size:** 90 hours / 8 weeks
+**Category:** Risky/Exploratory
+**Proposal Submitted:** March 2026
 
 ---
 
 ## 1. About Me
 
-**Name:** ANKIT KUMAR YADAV  
-**Email:** ay97948328@gmail.com  
-**GitHub:** https://github.com/ANKIEMUNKIE  
-**Location:** CHENNAI, TAMILNADU, INDIA
-**University:** SRM UNIVERSITY  
-**Degree:** B.Tech, CSE DATA SCIENCE, Year 2ND  
+**Name:** Ankit Kumar Yadav
+**Email:** ay97948328@gmail.com
+**GitHub:** https://github.com/ANKIEMUNKIE
+**Location:** Chennai, Tamil Nadu, India
+**Time Zone:** IST (UTC+5:30)
+**University:** SRM University
+**Degree:** B.Tech, CSE Data Science — 2nd Year
 
 ### Background
 
-I am a 2ND year student studying B.tech at SRM UNIVERSITY, CHENNAI. I am passionate about building AI-powered developer tools that make complex workflows accessible to non-experts. Over the past year I have built several Python projects involving LLM APIs and agentic systems.
+I am a 2nd year B.Tech student at SRM University, Chennai, specializing in Data Science. I am passionate about building AI-powered developer tools that make complex workflows accessible to non-experts. Over the past year I have built several Python projects involving LLM APIs and agentic systems.
 
 **Relevant Skills:**
 - **Python:** 2+ years of experience; used for backend scripting, data pipelines, and API integrations
-- **LLM APIs:** Hands-on experience with OpenAI, Anthropic, and Google AI APIs
-- **Agentic Frameworks:** Familiar with CrewAI and LangChain for multi-agent workflows
+- **LLM APIs:** Hands-on experience with OpenAI, Anthropic, Groq, and Google AI APIs
+- **Agentic Frameworks:** Hands-on experience with CrewAI for multi-agent workflows; familiar with LangChain
 - **TypeScript / Node.js:** Basic proficiency; comfortable reading and writing TS code
 - **Git / GitHub:** Daily driver for version control; familiar with PRs, reviews, issues
 
@@ -278,7 +280,7 @@ A working POC has already been built to validate the approach. It demonstrates:
 - ✅ Multi-provider LLM support (OpenAI, Anthropic, Google)
 - ✅ Real Accord Project output structure (model/, text/, package.json, README)
 
-**Repository:** https://github.com/ANKIEMUNKIE/accord-gsoc-poc.git
+**Repository:** https://github.com/ANKIEMUNKIE/accord-gsoc-poc
 
 **POC Output Example — Input:** `"Non-disclosure agreement, 2 years confidentiality, governed by NY law"`
 
@@ -343,4 +345,4 @@ by the laws of {{governingLaw}}.
 - TemplateMark Spec: https://docs.accordproject.org/docs/markup-templatemark
 - Template Playground: https://templateplay.accordproject.org
 - CrewAI Docs: https://docs.crewai.com
-- My POC Repository: https://github.com/ANKIEMUNKIE/accord-gsoc-poc.git
+- My POC Repository: https://github.com/ANKIEMUNKIE/accord-gsoc-poc
