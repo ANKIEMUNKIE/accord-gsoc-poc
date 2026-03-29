@@ -20,7 +20,7 @@
 
 ### Background
 
-I am a 2ND student studying B.tech at SRM UNIVERSITY, CHENNAI. I am passionate about building AI-powered developer tools that make complex workflows accessible to non-experts. Over the past year I have built several Python projects involving LLM APIs and agentic systems.
+I am a 2ND year student studying B.tech at SRM UNIVERSITY, CHENNAI. I am passionate about building AI-powered developer tools that make complex workflows accessible to non-experts. Over the past year I have built several Python projects involving LLM APIs and agentic systems.
 
 **Relevant Skills:**
 - **Python:** 2+ years of experience; used for backend scripting, data pipelines, and API integrations
