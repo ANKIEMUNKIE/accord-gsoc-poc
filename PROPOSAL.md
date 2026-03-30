@@ -242,7 +242,7 @@ All outcomes from the project description will be delivered:
 - Test end-to-end with 5+ different template types (NDA, late payment, IP transfer, service agreement, SLA)
 - Measure and improve template quality based on QA agent scores
 - Handle edge cases: vague requirements, conflicting fields, unsupported types
-
+- Migrate existing Accord Project templates from Ergo logic layer to TypeScript, using the agentic workflow to automate the conversion process.
 ### Week 5 — CLI Interface
 - Implement `main.py` with interactive and single-shot modes
 - Add `--model` flag for multi-provider LLM support
